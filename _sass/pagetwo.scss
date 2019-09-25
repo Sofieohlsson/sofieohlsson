@@ -265,3 +265,22 @@ top: 610px;
   
     } 
   }
+
+  .inscroll{
+    opacity: 0;
+    transition: all 1s ease-in;
+  }
+
+  .right{
+  transform: translateX(100px); 
+  }
+
+  .left{
+    transform: translateX(-100px); 
+}
+
+.visible{
+  opacity: 1;
+  transform: $initialState; 
+}
+

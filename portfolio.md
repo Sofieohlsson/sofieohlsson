@@ -8,7 +8,7 @@ title: "Home"
 <a href="#sofie"><span class="arrow">&#8595;</span></a>
 
 
-<div class="s-wrapper">
+<div class="s-wrapper inscroll">
 <h1>Sofie Ohlsson</h1>
 </div>
 
@@ -27,11 +27,10 @@ title: "Home"
 
 
 
-
+<div class="inscroll left">
 <h2 id="sofie">Hi, I'm Sofie </h2>
-
-
 <p>I'm a Frontend Developer. I make your business look good by creating a beautiful website</p>
+</div>
 
 </div>
 
@@ -58,22 +57,26 @@ title: "Home"
 <img src="assets/images/available-ontop.png" class="portfolio-overlay-pp profile-picture mobile-hide">
 </section>
 
+<div class="inscroll right">
 <h2>Available for new projects</h2>
 <p>Currently awailable for freelance. Contact me at contact@sofieohlsson.com</p>
+</div>
 
 </div>
 
 </div>
 
 <p class="padtest"></p>
+<div class="inscroll left">
 <h2 id="bucketlist">Bucketlist</h2>
 <p>Life is unexpected. Make the most of it. Turn you dreams into memories</p>
+</div>
 </main>
 
 <section class="container flex-cards page-section">
 {% for bucketlist in site.data.bucketlist %}
     <div class="wrap flex-cards {{bucketlist.class}}">
-        <div class="card">
+        <div class="card inscroll">
             <figure class="card-header snip1104">
             <img src="{{bucketlist.image}}">
             <div class="card-inner">
