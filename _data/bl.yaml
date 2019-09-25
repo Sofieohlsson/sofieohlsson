@@ -1,0 +1,61 @@
+- image: /assets/images/bl/bl-book.png
+  description: Write a book
+  id:     one
+  class: undone
+- image: /assets/images/bl/bl-space.png
+  description: Float in space
+  id:    two
+  class: undone
+- image: /assets/images/bl/bl-japan.png
+  description: Visit Japan
+  id:     three
+  class: undone
+- image: /assets/images/bl/bl-shelter.png
+  description: Volunteer at an animal center
+  id:     four
+  class: undone
+- image: /assets/images/bl/bl-camp.png
+  description: Hike and camp in the woods
+  id:     five
+  class: done
+  date: Completed june 2019
+  symbol: '&#x2713;'
+- image: /assets/images/bl/bl-abroad.png
+  description: Live abroad
+  id:     six
+  class: done
+  date: Completed jan 2016
+  symbol: '&#x2713;'
+- image: /assets/images/bl/bl-archery.png
+  description: Learn archery 
+  id: seven
+  class: undone
+- image: /assets/images/bl/bl-vegetarian.png
+  description: Go vegetarian 
+  id: eight
+  class: done
+  date: Completed aug 2010
+  symbol: '&#x2713;'
+- image: /assets/images/bl/bl-shop.png
+  description: Have an online shop
+  id: nine
+  class: undone
+- image: /assets/images/bl/bl-game.png
+  description: Make my own video game
+  id: ten
+  class: undone
+- image: /assets/images/bl/bl-tattoo.png
+  description: Get a tattoo 
+  id: eleven 
+  class: done
+  date: Completed feb 2016
+  symbol: '&#x2713;'
+- image: /assets/images/bl/bl-footprint.png
+  description: Leave my footprint 
+  id: twelve
+  class: done
+  date: Completed april 2018
+
+
+
+    

@@ -1,0 +1,21 @@
+.topnav {
+    overflow: hidden;
+    background-image: linear-gradient(to right, #8cd7ff99, #ffffff87);
+  }
+
+  body {
+    background-image: url("/assets/images/winter-bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 auto;
+}
+
+.topnav a.active {
+  background-color: #96baffad;
+  color: white;
+}
+
+.season-img{
+  background:url("/assets/images/winter-test.png");
+}
+

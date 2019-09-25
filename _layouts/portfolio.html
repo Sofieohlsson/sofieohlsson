@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link id="pagestyle" rel="stylesheet" href="{{ "/assets/css/portfolio.css" | relative_url }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+    {% include nav.html %}
+
+    <div class="wrapper">
+      {{ content}}
+    </div>
+
+    {% include footer.html %}
+    <script src="/assets/script/portfolio.js"></script>
+  </body>
+</html>

@@ -1,0 +1,20 @@
+body{
+  background-color: #f6f6f6;
+}
+
+.topnav {
+    overflow: hidden;
+    background-image: linear-gradient(to right, #afdc47a8, #d6ee8da3);
+}
+
+
+
+.topnav a.active {
+  background-color: #37b14dad;
+  color: white;
+}
+
+.season-img{
+  background:url("/assets/images/summer-test-bug.png");
+}
+

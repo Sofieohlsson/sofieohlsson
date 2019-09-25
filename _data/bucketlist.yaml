@@ -1,0 +1,55 @@
+- image: /assets/images/bucketlist-book.jpg
+  description1: Write a
+  description2: book
+  id:     one
+  class: pagetwo-undone
+- image: /assets/images/bucketlist-space.jpg
+  description1: Float in
+  description2: space
+  id:    two
+  class: pagetwo-undone
+- image: /assets/images/bucketlist-japan.jpg
+  description1: Visit
+  description2: Japan
+  id:     three
+  class: pagetwo-undone
+- image: /assets/images/bucketlist-shelter.jpg
+  description1: Volunteer at an
+  description2: animal shelter
+  id:     four
+  class: pagetwo-undone
+- image: /assets/images/bucketlist-camp.jpg
+  description1: Hike and camp
+  description2: in the woods &#x2713;
+  id:     five
+- image: /assets/images/bucketlist-abroad.jpg
+  description1: Live
+  description2: abroad &#x2713;
+  id:     six
+- image: /assets/images/bucketlist-archery.jpg
+  description1: Learn
+  description2: archery
+  id: seven
+  class: pagetwo-undone
+- image: /assets/images/bucketlist-vegetarian.jpg
+  description1: Go
+  description2: vegetarian &#x2713;
+  id: eight
+- image: /assets/images/bucketlist-shop.jpg
+  description1: Have my own
+  description2: online shop
+  id: nine
+  class: pagetwo-undone
+- image: /assets/images/bucketlist-game.jpg
+  description1: Make a 
+  description2: video game
+  id: ten
+  class: pagetwo-undone
+- image: /assets/images/bucketlist-tattoo.jpg
+  description1: Get a
+  description2: tattoo &#x2713;
+  id: eleven 
+- image: /assets/images/bucketlist-footprint.jpg
+  description1: Leave my
+  description2: footprint &#x2713;
+  id: twelve

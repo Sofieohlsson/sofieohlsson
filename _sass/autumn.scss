@@ -1,0 +1,21 @@
+.topnav {
+    overflow: hidden;
+    background-image: linear-gradient(to right, #ff00006e , #ffff0087);
+  }
+
+ body {
+    background-image: url("/assets/images/autumn-bg.png");
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 auto;
+} 
+
+.topnav a.active {
+    background-color: #919eff7d;
+    color: white;
+}
+
+.season-img{
+  background:url("/assets/images/autumn-test.png");
+}
+
