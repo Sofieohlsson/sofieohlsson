@@ -35,8 +35,6 @@ title: "Home"
 <div id="summer" class="button_cont"><button class="example_f"><span>Summer</span></button></div>
 </div>
 
-<!-- <img src="/assets/images/snow.gif"> -->
-
 <div class="main-section row">
 
 <div class="main-content col">
