@@ -23,27 +23,18 @@ seasons.forEach(season in seasons).addEventListener('click', (data) =>{
   document.getElementById('pagestyle').setAttribute('href', data);
 }); */
 
+let Seasons = function (id, sheet){
+  document.querySelector(id).addEventListener('click', () => {
+    document.getElementById('pagestyle').setAttribute('href', sheet);
+  })
+}; 
+
+let winter = new Seasons('#winter', '/assets/css/winter.css'); 
+let autumn = new Seasons('#autumn', '/assets/css/autumn.css'); 
+let spring = new Seasons('#spring', '/assets/css/spring.css'); 
+let summer = new Seasons('#summer', '/assets/css/summer.css'); 
 
 
-document.querySelector("#winter").addEventListener('click', (sheet) => {
-  sheet = '/assets/css/winter.css';
-  document.getElementById('pagestyle').setAttribute('href', sheet);
-})
-
-document.querySelector("#autumn").addEventListener('click', (sheet) => {
-  sheet = '/assets/css/autumn.css';
-  document.getElementById('pagestyle').setAttribute('href', sheet);
-})
-
-document.querySelector("#spring").addEventListener('click', (sheet) => {
-  sheet = '/assets/css/spring.css';
-  document.getElementById('pagestyle').setAttribute('href', sheet);
-})
-
-document.querySelector("#summer").addEventListener('click', (sheet) => {
-  sheet = '/assets/css/summer.css';
-  document.getElementById('pagestyle').setAttribute('href', sheet);
-})
 
 var solutionLinks = document.querySelectorAll(".solutionLink");
 
@@ -83,10 +74,4 @@ function getSeason() {
     document.getElementById('pagestyle').setAttribute('href', '/assets/css/winter.css');
       break;
   }
-}
-
-
-document.querySelector("#sunmoon").addEventListener('click', (sheet) => {
-  sheet = '/assets/css/portfolio.css';
-  document.getElementById('pagestyle').setAttribute('href', sheet);
-})
+};

@@ -42,6 +42,14 @@ html{
       width: 100vw;
     }
 
+    .header-img {
+      padding: 0; 
+  }
+
+  .wrapper {
+    padding-top: 10px;
+}
+
   }
 
   .example_f {
@@ -200,9 +208,6 @@ h5{
     right: 15%;
   }
 
-  #Awesome .circle_wrapper{
-    overflow: initial;
-  }
   
 }
 
@@ -224,4 +229,9 @@ transform: translateY(0);
 
 .main-visible{
 opacity: 1; 
+}
+
+
+#Awesome .circle_wrapper{
+  overflow: initial;
 }

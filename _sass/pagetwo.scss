@@ -290,6 +290,16 @@ top: 610px;
     opacity: 1;
     transform: $initialState; 
   }
+
+  .bgscroll{
+    opacity: 0;
+    transition: all 0.5s ease-in;
+  }
+
+  .bg-visible{
+    opacity: 1;
+  }
+
   }
 
 

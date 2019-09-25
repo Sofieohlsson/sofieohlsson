@@ -6,6 +6,14 @@ function checkForVisibility() {
       }
     });
 
+    let background = document.querySelectorAll(".bgscroll");
+    background.forEach(function(element) {
+      if (isElementInViewport(element)) {
+        element.classList.add("bg-visible");
+      }
+    });
+
+
   }
 
 

@@ -3,7 +3,7 @@ layout: portfolio
 title: "Home"
 ---
 
-<img src="/assets/images/test-bg.png" class="pagetwo-bg" />
+<img src="/assets/images/test-bg.png" class="pagetwo-bg bgscroll"/>
 
 <a href="#sofie"><span class="arrow">&#8595;</span></a>
 
