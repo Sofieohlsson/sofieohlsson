@@ -23,10 +23,6 @@ title: "Home"
 
 </a>
 
-<img src="/assets/images/test-bg.png" class="pagetwo-bg bucketlist">
-
-<a href="#sofie" class="bucketlist"><span class="arrow">&#8595;</span></a>
-
 <div class="header-img bl">
 <img class="season-img" src="/assets/images/default-test.png">
 </div>
@@ -95,7 +91,7 @@ Life is unexpected. Make the most of it. Turn you dreams into memories
         <div class="card">
             <div class="bucketlist-contain">
             <figure class="card-header">
-            <img src="{{bl.image}}" class="image" data-aos="flip-left"
+            <img src="{{bl.image}}" class="image"  data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000">
             <div class="middle">

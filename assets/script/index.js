@@ -7,6 +7,9 @@ function myFunction() {
   }
 }
 
+document.querySelector("nav").addEventListener('click', myFunction);
+
+
 /* function changeSeason(sheet){
   document.getElementById('pagestyle').setAttribute('href', sheet);
 }
@@ -87,6 +90,3 @@ document.querySelector("#sunmoon").addEventListener('click', (sheet) => {
   sheet = '/assets/css/portfolio.css';
   document.getElementById('pagestyle').setAttribute('href', sheet);
 })
-
-
-
