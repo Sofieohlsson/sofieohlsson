@@ -1,16 +1,13 @@
-  .container {
+   .container {
     display: flex;
     flex-wrap: wrap;
   }
   
   .flex-cards {
-    flex: 1 0 30%; /* explanation below */
+    flex: 1 0 30%;
     margin: 5px;
     text-align: center; 
   }
-  
-
-
   
   /* Mobile Styles */
   @media only screen and (max-width: 500px) {
@@ -20,7 +17,6 @@
         width: 80vw; 
         height: auto;
       }
-  
     } 
   }
   
@@ -32,7 +28,6 @@
         width: 30vw; 
         height: auto;
       }
-  
     } 
   }
   
@@ -44,8 +39,8 @@
         width: 16vw; 
         height: auto;
       }
-  
     } 
+
     .portfolio-container {
       position: relative;
     }
@@ -73,7 +68,6 @@
     .portfolio-container:hover .portfolio-overlay-pp {
       opacity: 1;
     }
-    
     
     .portfolio-container:hover .portfolio-overlay {
       opacity: 1;
