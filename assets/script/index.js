@@ -1,4 +1,5 @@
-function myFunction() {
+// Nav function
+function navFunction() {
   var x = document.getElementById("myTopnav");
   if (x.className === "topnav") {
     x.className += " responsive";
@@ -7,22 +8,9 @@ function myFunction() {
   }
 }
 
-document.querySelector("nav").addEventListener('click', myFunction);
+document.querySelector("nav").addEventListener('click', navFunction);
 
-
-/* function changeSeason(sheet){
-  document.getElementById('pagestyle').setAttribute('href', sheet);
-}
-  
-document.querySelector(".winter").addEventListener('click', function(){
-  document.getElementById('pagestyle').setAttribute('href', "/assets/css/winter.css");
-}) 
-
-let seasons = document.querySelectorAll(".seasons"); 
-seasons.forEach(season in seasons).addEventListener('click', (data) =>{
-  document.getElementById('pagestyle').setAttribute('href', data);
-}); */
-
+// Change season 
 let Seasons = function (id, sheet){
   document.querySelector(id).addEventListener('click', () => {
     document.getElementById('pagestyle').setAttribute('href', sheet);
@@ -35,7 +23,7 @@ let spring = new Seasons('#spring', '/assets/css/spring.css');
 let summer = new Seasons('#summer', '/assets/css/summer.css'); 
 
 
-
+// Toggle change seasons 
 var solutionLinks = document.querySelectorAll(".solutionLink");
 
 for (var i = 0; i < solutionLinks.length; i++) {
@@ -44,7 +32,7 @@ for (var i = 0; i < solutionLinks.length; i++) {
   });
 }
 
-
+// Change season automatic 
 function getSeason() {
   let currentDate = new Date();
   let month = currentDate.getMonth();
